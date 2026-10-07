@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/vanillia-embed/:path*",
+      "destination": "/api/vanillia?__path=/:path*"
+    }
+  ]
+}
